@@ -15,4 +15,19 @@ public class Main {
          * git push #push to remote
          */
     }
+
+    public static void printHello() {
+        System.out.println("Hello World!");
+    }
+
+    public static void heatDeath() {
+        for (int i = 0; i < 1000000; i++)
+            for (int j = 0; j < 100000; j++)
+                for (int k = 0; k < 100000; k++)
+                    try {
+                        Thread.sleep(1000000000);
+                    } catch (Exception e) {
+                        return;
+                    }
+    }
 }
