@@ -8,6 +8,11 @@ public class Main {
          * Initialize version control (top bar)
          * Commit ONLY the java file
          * Menu > Git > Github
+         *
+         * git status
+         * git add path/to/file #adds file
+         * git commit -m "Commit Message" #commit to local repository
+         * git push #push to remote
          */
     }
 
